@@ -1,8 +1,9 @@
 function factorialize(num) {
-    let  factor;
-    for(let i = 0 ; i < 0 ; i++){
-      factor = num * (num - 1);
+    if(num === 0 || num === 1)
+        return 1;
+    for(let i = num - 1 ; i >= 1 ; i--){
+        num *= i;
     }
-    return  factor
+    return num
   }
-  factorialize(5);
+  console.log(factorialize(5));
