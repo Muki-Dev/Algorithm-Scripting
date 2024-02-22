@@ -1,5 +1,5 @@
-function factorialize(num){
+function factorialize(num) {
     return num;
-}
-
-console.log(factorialize(5));
+  }
+  
+  factorialize(5);
