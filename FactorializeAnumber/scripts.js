@@ -5,4 +5,4 @@ function factorialize(num) {
     }
     return  factor
   }
-  factorialize(5);
+  console.log(factorialize(5));
